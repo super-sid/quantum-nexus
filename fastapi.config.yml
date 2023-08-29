@@ -1,0 +1,27 @@
+# FastAPI configuration file
+version: '3.0'
+
+server:
+  host: 'localhost'
+  port: 8000
+
+database:
+  url: 'sqlite:///app.db'
+  username: None
+  password: None
+
+security:
+  login: False
+
+templates:
+  path: 'templates/'
+
+routes:
+  path: '/'
+  route: 'index'
+
+models:
+  path: 'models/'
+
+schemes:
+  path: 'schemas/'

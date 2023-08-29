@@ -1,0 +1,11 @@
+Sure! Here is the list of essential files for a blog app in FastAPI, organized as a `tree -iF` output:
+- app.py
+- fastapi.config.yml
+- models.py
+- routes.py
+- schemas.py
+- templates/base.html
+- templates/index.html
+- templates/post.html
+- templates/search.html
+- utils.py
